@@ -1,13 +1,13 @@
 import { publish } from "gh-pages";
 
 publish(
-  "public", // path to public directory
+  "build", // path to public directory
   {
     branch: "gh-pages",
-    repo: "https://github.com/el3um4s/petits-chevaux.git", // Update to point to your repository
+    repo: "https://github.com/Skro11-ru/my-app.git", // Update to point to your repository
     user: {
-      name: "Samuele", // update to use your name
-      email: "samuele@stranianelli.com", // Update to use your email
+      name: "one", // update to use your name
+      email: "two", // Update to use your email
     },
     dotfiles: true,
   },
